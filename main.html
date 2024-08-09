@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="static/style.css" />
+    <link rel="icon" href="images/icon.svg" />
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="body">
+        <h1 class="s2" id="title">Simple Calculator</h1>
+        <div id="screen">
+            <p id="supdisplay">&nbsp;</p>
+            <h1 class="s0" id="displayscreen">&nbsp;</h1>
+        </div>
+        <div id="buttons">
+            <div class="buttongroup">
+                <div class="buttoncontainer">
+                    <button class="button oper" onclick="add()"><strong class="s5">+</strong></button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="button oper" onclick="sub()"><strong class="s5">-</strong></button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="button oper" onclick="multi()"><strong class="s5">x</strong></button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="button oper" onclick="div()"><strong class="s5">/</strong></button>
+                </div>
+            </div>
+            <div class="buttongroup">
+                <div class="buttoncontainer">
+                    <button class="button oper" onclick="power2()"><strong>x<sup>2</sup></strong></button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="button num" onclick="concat7()"><strong>7</strong></button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="button num" onclick="concat8()"><strong>8</strong></button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="button num" onclick="concat9()"><strong>9</strong></button>
+                </div>
+            </div>
+            <div class="buttongroup">
+                <div class="buttoncontainer">
+                    <button class="button oper" onclick="flip()"><strong>+/-</strong></button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="button num" onclick="concat4()"><strong>4</strong></button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="button num" onclick="concat5()"><strong>5</strong></button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="button num" onclick="concat6()"><strong>6</strong></button>
+                </div>
+            </div>
+            <div class="buttongroup">
+                <div class="buttoncontainer">
+                    <button class="button clear" onclick="bs()"><strong>&#x232B;</strong></button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="button num" onclick="concat1()"><strong>1</strong></button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="button num" onclick="concat2()"><strong>2</strong></button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="button num" onclick="concat3()"><strong>3</strong></button>
+                </div>
+            </div>
+            <div class="buttongroup">
+                <div class="buttoncontainer">
+                    <button class="button clear" onclick="del()"><strong>AC</strong></button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="button num" onclick="concat0()"><strong>0</strong></button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="button num" onclick="decimal()"><strong>&bull;</strong></button>
+                </div>
+                <div class="buttoncontainer">
+                    <button class="button calc" onclick="calc()">=</button>
+                </div>
+            </div>
+            <div id="invisidiv">
+                <p>Invisidiv&trade; Saves Lives (and HTML Web Pages)</p>
+            </div>
+        </div>
+        <p id="footer">by Adham Y. Hebeish</p>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
